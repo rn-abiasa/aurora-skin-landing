@@ -23,12 +23,12 @@ function Highlight() {
           <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-80 group-hover:opacity-100 transition-opacity duration-500"></div>
           <div className="relative z-10 transform translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
             <h3 className="text-2xl md:text-3xl font-medium text-white leading-snug drop-shadow-sm">
-              Ritual Cahaya. Undangan Lembut Menemukan Kembali Kilau Alami
+              Saatnya Memilih Diri Sendiri.
             </h3>
             <p className="text-base font-normal text-white/90 mt-4 drop-shadow-sm leading-relaxed opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-100">
-              Di dunia yang bergerak terlalu cepat, Aurora mengundang Anda untuk
-              melambat. Menemukan kembali kekuatan kulit Anda—tanpa filter,
-              tanpa paksaan, dan hidup secara alami.
+              Berhenti sejenak dari hiruk-pikuk kehidupan. Jadikan momen
+              merawat wajah sebagai ritual relaksasi pribadi yang tak
+              tergantikan.
             </p>
           </div>
         </div>
@@ -43,25 +43,25 @@ function Highlight() {
         >
           <div>
             <p className="text-sm font-medium text-primary-foreground/70 uppercase tracking-wider">
-              Set Rutinitas Kulit Aurora
+              Koleksi Eksklusif Aurora
             </p>
           </div>
           <div className="flex justify-center items-center w-full py-10 md:py-0">
             <p className="text-4xl md:text-5xl lg:text-6xl font-medium text-primary-foreground tracking-tight">
-              Tingkatkan
+              Manjakan Dirimu
             </p>
           </div>
           <div>
             <p className="text-base font-normal text-primary-foreground/90 leading-relaxed">
-              Memperkenalkan Set Ritual Aurora—koleksi pilihan yang merayakan
-              perawatan harian sebagai momen ketenangan. Setiap formula
-              dirancang untuk meremajakan.
+              Hadirkan pengalaman spa mewah di meja rias Anda. Koleksi ini
+              adalah langkah pertama menuju kulit impian yang selalu Anda
+              dambakan.
             </p>
             <Button
               size="lg"
               className="bg-emerald-500 hover:bg-emerald-600 text-white rounded-full flex gap-4 p-1 pl-6 mt-8 h-14 w-max transition-colors"
             >
-              <span className="text-base font-medium">Beli Sekarang</span>
+              <span className="text-base font-medium">Pesan Koleksi Ini</span>
               <span className="bg-white h-12 w-12 rounded-full flex justify-center items-center text-emerald-700">
                 <ArrowUpRight className="h-5 w-5" />
               </span>

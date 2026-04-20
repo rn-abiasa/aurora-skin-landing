@@ -16,8 +16,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Aurora Skin | Tampil Percaya Diri. Berawal dari Sains.",
-  description: "Formula skincare praktis yang dikembangkan dengan presisi dermatologis untuk kilau wajah setiap hari.",
+  title: "Aurora Skin | Rayakan Cantik Aslimu. Tanpa Kompromi.",
+  description: "Rangkaian perawatan kulit premium yang diramu khusus untuk merawat kecantikan alami Anda.",
 };
 
 export default function RootLayout({

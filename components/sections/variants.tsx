@@ -6,30 +6,30 @@ import { cn } from "@/lib/utils";
 const features = [
   {
     id: 1,
-    name: "Membersihkan",
+    name: "Purify",
     description:
-      "Pembersih lembut yang mengangkat kotoran tanpa mengikis kelembapan alami, menjadikan kulit Anda lembut, seimbang, dan segar.",
+      "Menyapu kotoran dengan kelembutan ekstra, mengembalikan kemurnian wajah tanpa menghilangkan kelembapan alami.",
     image: "/Minimalist Cosmetic Display.webp",
   },
   {
     id: 2,
-    name: "Merawat",
+    name: "Nourish",
     description:
-      "Serum konsentrat yang menutrisi kulit secara mendalam, mengatasi masalah kulit spesifik dengan bahan aktif yang presisi.",
+      "Tetesan ajaib yang meresap ke lapisan terdalam, memberikan asupan nutrisi untuk menjaga elastisitas kulit.",
     image: "/Minimalist Cosmetic Tube.webp",
   },
   {
     id: 3,
-    name: "Melindungi",
+    name: "Shield",
     description:
-      "Tabir surya ringan yang memberikan perlindungan maksimal untuk menjaga kulit Anda dari bahaya sinar UV sehari-hari.",
+      "Bagaikan perisai tak kasatmata yang melindungi dari polusi dan bahaya sinar matahari sepanjang hari.",
     image: "/Minimalist-Green-Tube.webp",
   },
   {
     id: 4,
-    name: "Menghidrasi",
+    name: "Revive",
     description:
-      "Krim malam yang memulihkan dan meremajakan kulit saat Anda tidur, memberikan hidrasi intens agar wajah berseri di pagi hari.",
+      "Krim malam restoratif yang bekerja selaras dengan ritme istirahat Anda. Bangun dengan wajah segar berseri.",
     image: "/Minimalist Cosmetic Jar.webp",
   },
 ];
@@ -47,10 +47,10 @@ function Variants() {
         ref={ref}
       >
         <p className="text-sm md:text-base font-medium text-muted-foreground uppercase tracking-wider">
-          Langkah Perawatan
+          Seni Merawat Diri
         </p>
         <h2 className="text-3xl md:text-4xl lg:text-5xl font-medium mt-3 text-foreground">
-          Rutinitas Anda, Diperbarui
+          Sentuhan Mewah untuk Kulitmu
         </h2>
       </div>
       <div className="flex gap-5 md:grid md:grid-cols-2 lg:grid-cols-4 overflow-x-auto md:overflow-visible mt-10 md:mt-16 pb-5 md:pb-0 scrollbar-hide snap-x md:snap-none">

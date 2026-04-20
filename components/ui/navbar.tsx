@@ -38,8 +38,7 @@ function Navbar() {
   return (
     <nav
       className={cn(
-        "fixed top-0 w-full flex justify-between items-center p-5 md:px-10 lg:px-20 z-50 transition-all duration-300",
-        scrolled ? "bg-black/60 backdrop-blur-md py-4" : "bg-transparent py-6",
+        "absolute top-0 w-full flex justify-between items-center p-5 md:px-10 lg:px-20 z-50 transition-all duration-300",
       )}
     >
       <div>
@@ -58,11 +57,11 @@ function Navbar() {
             </a>
           ))}
         </nav>
-        <Button className="h-10 md:h-12 rounded-full py-1 pr-1 pl-5 md:pl-6 bg-white text-black hover:bg-neutral-200 transition-colors flex items-center">
+        <Button className="bg-primary h-10 md:h-12 rounded-full py-1 pr-1 pl-5 md:pl-6 text-white hover:bg-neutral-200 transition-colors flex items-center">
           <span className="text-sm md:text-base font-medium">
-            Beli Sekarang
+            Mulai Perjalananmu
           </span>
-          <span className="bg-primary h-8 w-8 md:h-10 md:w-10 rounded-full flex justify-center items-center text-white ml-3 shrink-0">
+          <span className="bg-background h-8 w-8 md:h-10 md:w-10 rounded-full flex justify-center items-center text-primary ml-3 shrink-0">
             <ArrowUpRight className="h-4 w-4 md:h-5 md:w-5" />
           </span>
         </Button>

@@ -8,19 +8,19 @@ const testimonials = [
   {
     id: 1,
     name: "Amelia R.",
-    review: "Kulit saya belum pernah terasa selembut ini. Krim kelembapannya benar-benar mengubah rutinitas pagi saya.",
+    review: "Sentuhan pertama langsung terasa bedanya. Krim ini bukan sekadar pelembap, ini pelukan hangat untuk kulitku setelah hari yang panjang.",
     rating: 5,
   },
   {
     id: 2,
     name: "Diana P.",
-    review: "Saya sangat menyukai teksturnya. Ringan, cepat meresap, dan memberikan efek kilau yang tampak sehat secara instan.",
+    review: "Setiap tetes serumnya seolah berbicara pada kulitku. Wajahku tak pernah terlihat sehidup dan sebercahaya ini sebelumnya.",
     rating: 5,
   },
   {
     id: 3,
     name: "Siti K.",
-    review: "Pembersih wajah yang sangat lembut. Tidak membuat kulit terasa kering atau tertarik setelah dibilas. Luar biasa!",
+    review: "Awalnya aku ragu, tapi kejernihan kulitku sekarang adalah bukti nyata. Ritual pagiku tak lagi sama, ini adalah waktu favoritku.",
     rating: 5,
   },
 ];
@@ -35,10 +35,10 @@ function Testimonials() {
         ref={ref}
       >
         <p className="text-sm md:text-base font-medium text-muted-foreground text-center uppercase tracking-wider">
-          Testimoni
+          Suara Hati
         </p>
         <h2 className="text-3xl md:text-4xl lg:text-5xl font-medium text-center mt-3 text-foreground">
-          Kisah Kulit Sehat Mereka
+          Bukti Nyata dari Mereka
         </h2>
         <p className="text-base md:text-lg font-normal text-muted-foreground text-center mt-4">
           Dengarkan langsung dari komunitas kami yang telah merasakan manfaat nyata Aurora Skin.

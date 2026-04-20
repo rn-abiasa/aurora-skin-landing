@@ -17,10 +17,10 @@ function Footer() {
         {/* Headline & Newsletter */}
         <div className="flex-1 max-w-xl">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-medium leading-tight mb-6 text-white drop-shadow-sm">
-            Bergabunglah dengan Perjalanan Kilau Alami Kami.
+            Mari Terhubung Lebih Dekat.
           </h2>
           <p className="text-base text-white/70 mb-8 leading-relaxed">
-            Daftar ke buletin kami untuk mendapatkan pembaruan tentang peluncuran produk baru, tips perawatan kulit, dan penawaran eksklusif.
+            Berlangganan surat berkala kami untuk menerima tips eksklusif, inspirasi kecantikan, dan penawaran khusus langsung di kotak masuk Anda.
           </p>
           <div className="flex gap-2 w-full max-w-md bg-white/10 p-1.5 rounded-full border border-white/20 focus-within:border-white/50 transition-colors">
             <input 

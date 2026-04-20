@@ -7,25 +7,25 @@ import { cn } from "@/lib/utils";
 const routines = [
   {
     id: 1,
-    name: "Temukan ritme kulit Anda",
+    name: "Kenali Kebutuhanmu",
     description:
-      "Gunakan fitur pencari rutinitas kami. Pahami jenis kulit Anda secara instan dan dapatkan rekomendasi produk yang dipersonalisasi.",
+      "Luangkan waktu 2 menit untuk memahami apa yang benar-benar diinginkan oleh kulit Anda.",
     time: "Dalam Hitungan Menit",
     icon: <Clock8 size={24} />,
   },
   {
     id: 2,
-    name: "Terapkan dengan Kesadaran",
+    name: "Nikmati Prosesnya",
     description:
-      "Luangkan waktu sejenak di pagi dan malam hari. Biarkan setiap usapan menjadi bentuk penghargaan terhadap diri sendiri.",
+      "Jadikan setiap olesan produk sebagai apresiasi terhadap kecantikan unik yang Anda miliki.",
     time: "Setiap Hari",
     icon: <Sparkles size={24} />,
   },
   {
     id: 3,
-    name: "Rasakan Perubahannya",
+    name: "Saksikan Keajaibannya",
     description:
-      "Perhatikan tekstur kulit yang membaik, kelembapan yang kembali seimbang, dan kilau alami yang bersinar dari dalam.",
+      "Dalam beberapa minggu, rasakan tekstur yang lebih kenyal, sehat, dan memancarkan aura positif.",
     time: "Setelah 2 Minggu",
     icon: <CheckCircle size={24} />,
   },
@@ -45,7 +45,7 @@ function Routine() {
           ref={ref}
         >
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-medium text-white text-center">
-            Temukan Rutinitas Sempurna Anda
+            Langkah Mudah Menuju Kesempurnaan
           </h2>
           <p className="text-base md:text-lg font-normal text-white/80 text-center mt-4">
             Telah dicoba, diuji, dan dicintai oleh ribuan pelanggan. Mulai

@@ -7,23 +7,23 @@ import { cn } from "@/lib/utils";
 const features = [
   {
     id: 1,
-    name: "Keseimbangan Alami",
+    name: "Esensi Alam",
     description:
-      "Diformulasikan dengan bahan aktif lembut yang terinspirasi oleh keseimbangan alam untuk merawat kulit tanpa iritasi.",
+      "Ekstrak tumbuhan premium yang dipilih dengan teliti untuk memberikan hasil maksimal tanpa bahan kimia berbahaya.",
     icon: <Scale className="w-8 h-8" />,
   },
   {
     id: 2,
-    name: "Bahan Vegan & Organik",
+    name: "Ramah Lingkungan",
     description:
-      "Menggunakan bahan vegan pilihan yang ditanam secara organik demi menjaga kualitas serta kelestarian lingkungan.",
+      "Komitmen kami untuk kecantikan yang bertanggung jawab. Kemasan dan bahan kami 100% mendukung keberlanjutan.",
     icon: <Leaf className="w-8 h-8" />,
   },
   {
     id: 3,
-    name: "Hidrasi Tahan Lama",
+    name: "Teruji Klinis",
     description:
-      "Teknologi pengunci kelembapan memberikan hidrasi mendalam yang menjaga kulit Anda kenyal dan bercahaya sepanjang hari.",
+      "Keamanan adalah prioritas. Setiap produk melewati uji ketat untuk memastikan kecocokan dengan berbagai kondisi kulit.",
     icon: <Droplet className="w-8 h-8" />,
   },
 ];
@@ -38,13 +38,13 @@ function Features() {
         ref={ref}
       >
         <p className="text-sm md:text-base font-medium text-muted-foreground text-center uppercase tracking-wider">
-          Keseimbangan
+          Filosofi Kami
         </p>
         <h2 className="text-3xl md:text-4xl lg:text-5xl font-medium text-center mt-3 text-foreground">
-          Kecantikan dalam Harmoni
+          Kemurnian dalam Setiap Tetes
         </h2>
         <p className="text-base md:text-lg font-normal text-muted-foreground text-center mt-4 leading-relaxed">
-          Karena kilau sejati lahir di antara niat dan insting, antara sains yang teruji dan perawatan diri yang tulus.
+          Aurora Skin diciptakan dari dedikasi untuk menghadirkan kualitas terbaik bagi kulit Anda. Kami percaya bahwa setiap sentuhan adalah bentuk cinta terhadap diri sendiri.
         </p>
       </div>
       <div className="flex flex-col md:grid md:grid-cols-3 gap-12 md:gap-8 lg:gap-16 mt-16 md:mt-24 max-w-6xl mx-auto">

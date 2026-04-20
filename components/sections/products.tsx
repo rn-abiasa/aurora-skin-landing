@@ -6,24 +6,24 @@ import { cn } from "@/lib/utils";
 const products = [
   {
     id: 1,
-    name: "Krim Kelembapan Ekstra",
-    description: "Pembaruan mingguan, hidrasi mendalam untuk kulit berseri.",
+    name: "Velvet Moisture Cream",
+    description: "Krim selembut beludru yang mengunci hidrasi hingga 48 jam.",
     category: "Perawatan",
     price: "Rp 200.000",
     image: "/product1.webp",
   },
   {
     id: 2,
-    name: "Serum Revitalisasi",
-    description: "Menutrisi kulit, mengatasi penuaan dini secara presisi.",
+    name: "Luminous Glow Drops",
+    description: "Serum andalan untuk menghilangkan kusam dan meratakan warna kulit.",
     category: "Intensif",
     price: "Rp 350.000",
     image: "/product2.webp",
   },
   {
     id: 3,
-    name: "Pembersih Wajah Lembut",
-    description: "Membersihkan pori-pori tanpa menghilangkan minyak alami.",
+    name: "Cloud Cleansing Foam",
+    description: "Busa pembersih selembut awan, membersihkan sekaligus menenangkan kulit.",
     category: "Dasar",
     price: "Rp 150.000",
     image: "/product3.webp",
@@ -49,10 +49,10 @@ function Products() {
         ref={ref}
       >
         <p className="text-sm md:text-base font-medium text-muted-foreground text-center uppercase tracking-wider">
-          Produk Kami
+          Kurasi Pilihan
         </p>
         <h2 className="text-3xl md:text-4xl lg:text-5xl font-medium text-center mt-3 text-foreground">
-          Favorit Komunitas Kami
+          Mahakarya Terlaris Kami
         </h2>
         <p className="text-base md:text-lg font-normal text-muted-foreground text-center mt-4">
           Telah dicoba, diuji, dan dicintai oleh ribuan pelanggan setia kami.
