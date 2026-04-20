@@ -13,8 +13,11 @@ function Highlight() {
     <section className="mt-10 md:mt-20 p-5 md:p-10 lg:p-20 overflow-hidden">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-6 h-auto lg:h-[600px]">
         {/* Box 1 */}
-        <div 
-          className={cn("bg-[url('/Glowing-Skin-Close-Up.png')] bg-cover bg-center w-full rounded-3xl p-8 md:p-10 flex flex-col justify-end min-h-[400px] md:min-h-full animate-on-scroll relative overflow-hidden group", isVis1 && "is-visible")}
+        <div
+          className={cn(
+            "bg-[url('/Glowing-Skin-Close-Up.webp')] bg-cover bg-center w-full rounded-3xl p-8 md:p-10 flex flex-col justify-end min-h-[400px] md:min-h-full animate-on-scroll relative overflow-hidden group",
+            isVis1 && "is-visible",
+          )}
           ref={ref1}
         >
           <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-80 group-hover:opacity-100 transition-opacity duration-500"></div>
@@ -23,14 +26,19 @@ function Highlight() {
               Ritual Cahaya. Undangan Lembut Menemukan Kembali Kilau Alami
             </h3>
             <p className="text-base font-normal text-white/90 mt-4 drop-shadow-sm leading-relaxed opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-100">
-              Di dunia yang bergerak terlalu cepat, Aurora mengundang Anda untuk melambat. Menemukan kembali kekuatan kulit Anda—tanpa filter, tanpa paksaan, dan hidup secara alami.
+              Di dunia yang bergerak terlalu cepat, Aurora mengundang Anda untuk
+              melambat. Menemukan kembali kekuatan kulit Anda—tanpa filter,
+              tanpa paksaan, dan hidup secara alami.
             </p>
           </div>
         </div>
 
         {/* Box 2 */}
-        <div 
-          className={cn("bg-primary w-full rounded-3xl flex flex-col justify-between p-8 md:p-10 min-h-[400px] md:min-h-full animate-on-scroll delay-100", isVis2 && "is-visible")}
+        <div
+          className={cn(
+            "bg-primary w-full rounded-3xl flex flex-col justify-between p-8 md:p-10 min-h-[400px] md:min-h-full animate-on-scroll delay-100",
+            isVis2 && "is-visible",
+          )}
           ref={ref2}
         >
           <div>
@@ -39,11 +47,15 @@ function Highlight() {
             </p>
           </div>
           <div className="flex justify-center items-center w-full py-10 md:py-0">
-            <p className="text-4xl md:text-5xl lg:text-6xl font-medium text-primary-foreground tracking-tight">Tingkatkan</p>
+            <p className="text-4xl md:text-5xl lg:text-6xl font-medium text-primary-foreground tracking-tight">
+              Tingkatkan
+            </p>
           </div>
           <div>
             <p className="text-base font-normal text-primary-foreground/90 leading-relaxed">
-              Memperkenalkan Set Ritual Aurora—koleksi pilihan yang merayakan perawatan harian sebagai momen ketenangan. Setiap formula dirancang untuk meremajakan.
+              Memperkenalkan Set Ritual Aurora—koleksi pilihan yang merayakan
+              perawatan harian sebagai momen ketenangan. Setiap formula
+              dirancang untuk meremajakan.
             </p>
             <Button
               size="lg"
@@ -58,7 +70,7 @@ function Highlight() {
         </div>
 
         {/* Box 3 - Hidden on tablet, shown on desktop or stacked on mobile */}
-        <div className="hidden lg:block bg-[url('/Minimalist-Green-Tube.png')] bg-cover bg-center rounded-3xl w-full h-full min-h-[400px]"></div>
+        <div className="hidden lg:block bg-[url('/Minimalist-Green-Tube.webp')] bg-cover bg-center rounded-3xl w-full h-full min-h-[400px]"></div>
       </div>
     </section>
   );

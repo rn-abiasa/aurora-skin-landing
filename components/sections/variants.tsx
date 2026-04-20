@@ -9,28 +9,28 @@ const features = [
     name: "Membersihkan",
     description:
       "Pembersih lembut yang mengangkat kotoran tanpa mengikis kelembapan alami, menjadikan kulit Anda lembut, seimbang, dan segar.",
-    image: "/Minimalist Cosmetic Display.png",
+    image: "/Minimalist Cosmetic Display.webp",
   },
   {
     id: 2,
     name: "Merawat",
     description:
       "Serum konsentrat yang menutrisi kulit secara mendalam, mengatasi masalah kulit spesifik dengan bahan aktif yang presisi.",
-    image: "/Minimalist Cosmetic Tube.png",
+    image: "/Minimalist Cosmetic Tube.webp",
   },
   {
     id: 3,
     name: "Melindungi",
     description:
       "Tabir surya ringan yang memberikan perlindungan maksimal untuk menjaga kulit Anda dari bahaya sinar UV sehari-hari.",
-    image: "/Minimalist-Green-Tube.png",
+    image: "/Minimalist-Green-Tube.webp",
   },
   {
     id: 4,
     name: "Menghidrasi",
     description:
       "Krim malam yang memulihkan dan meremajakan kulit saat Anda tidur, memberikan hidrasi intens agar wajah berseri di pagi hari.",
-    image: "/Minimalist Cosmetic Jar.png",
+    image: "/Minimalist Cosmetic Jar.webp",
   },
 ];
 
@@ -39,7 +39,13 @@ function Variants() {
 
   return (
     <section className="p-5 md:p-10 lg:p-20 overflow-hidden bg-background">
-      <div className={cn("mt-10 md:mt-16 animate-on-scroll", isVisible && "is-visible")} ref={ref}>
+      <div
+        className={cn(
+          "mt-10 md:mt-16 animate-on-scroll",
+          isVisible && "is-visible",
+        )}
+        ref={ref}
+      >
         <p className="text-sm md:text-base font-medium text-muted-foreground uppercase tracking-wider">
           Langkah Perawatan
         </p>
@@ -55,7 +61,7 @@ function Variants() {
             className={cn(
               "bg-cover bg-center h-[400px] md:h-[450px] w-80 md:w-auto shrink-0 md:shrink rounded-2xl overflow-hidden group relative animate-on-scroll snap-center",
               isVisible && "is-visible",
-              `delay-${(index + 1) * 100}`
+              `delay-${(index + 1) * 100}`,
             )}
           >
             <div className="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition-colors duration-500"></div>

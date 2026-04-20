@@ -10,7 +10,7 @@ const products = [
     description: "Pembaruan mingguan, hidrasi mendalam untuk kulit berseri.",
     category: "Perawatan",
     price: "Rp 200.000",
-    image: "/product1.png",
+    image: "/product1.webp",
   },
   {
     id: 2,
@@ -18,7 +18,7 @@ const products = [
     description: "Menutrisi kulit, mengatasi penuaan dini secara presisi.",
     category: "Intensif",
     price: "Rp 350.000",
-    image: "/product2.png",
+    image: "/product2.webp",
   },
   {
     id: 3,
@@ -26,7 +26,7 @@ const products = [
     description: "Membersihkan pori-pori tanpa menghilangkan minyak alami.",
     category: "Dasar",
     price: "Rp 150.000",
-    image: "/product3.png",
+    image: "/product3.webp",
   },
 ];
 
